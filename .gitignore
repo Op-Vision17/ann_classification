@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data & generated files (keep small sample datasets if needed)
+data/
+*.csv
+*.tsv
+*.npz
+*.npy
+*.tfrecord
+
+# Model weights & checkpoints (others can train their own)
+*.h5
+*.ckpt*
+*.pb
+saved_model/
+saved_models/
+checkpoints/
+
+# Logs & TensorBoard
+logs/
+tensorboard/
+events.out.tfevents.*
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

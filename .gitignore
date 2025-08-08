@@ -19,7 +19,6 @@ data/
 *.tfrecord
 
 # Model weights & checkpoints (others can train their own)
-*.h5
 *.ckpt*
 *.pb
 saved_model/
